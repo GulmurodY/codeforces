@@ -55,6 +55,12 @@ build CMakeFiles/CF.dir/276A.cpp.o: CXX_COMPILER__CF_unscanned_Debug /Users/gulm
   OBJECT_DIR = CMakeFiles/CF.dir
   OBJECT_FILE_DIR = CMakeFiles/CF.dir
 
+build CMakeFiles/CF.dir/2145B.cpp.o: CXX_COMPILER__CF_unscanned_Debug /Users/gulmurody/CLionProjects/CF/2145B.cpp || cmake_object_order_depends_target_CF
+  DEP_FILE = CMakeFiles/CF.dir/2145B.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/CF.dir
+  OBJECT_FILE_DIR = CMakeFiles/CF.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CF
@@ -63,7 +69,7 @@ build CMakeFiles/CF.dir/276A.cpp.o: CXX_COMPILER__CF_unscanned_Debug /Users/gulm
 #############################################
 # Link the executable CF
 
-build CF: CXX_EXECUTABLE_LINKER__CF_Debug CMakeFiles/CF.dir/276A.cpp.o
+build CF: CXX_EXECUTABLE_LINKER__CF_Debug CMakeFiles/CF.dir/276A.cpp.o CMakeFiles/CF.dir/2145B.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk
   OBJECT_DIR = CMakeFiles/CF.dir
   POST_BUILD = :

@@ -3,4 +3,5 @@ project(CF)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CF 276A.cpp)
+add_executable(CF 276A.cpp
+        2145B.cpp)
