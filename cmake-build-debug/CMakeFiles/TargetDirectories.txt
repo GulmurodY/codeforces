@@ -1,3 +1,0 @@
-/Users/gulmurody/CLionProjects/CF/cmake-build-debug/CMakeFiles/CF.dir
-/Users/gulmurody/CLionProjects/CF/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/gulmurody/CLionProjects/CF/cmake-build-debug/CMakeFiles/rebuild_cache.dir
